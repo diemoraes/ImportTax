@@ -1,0 +1,3 @@
+22/03/2019 08:38:40;Erro ao obter ação do botão ou erro ao concluir processo.;O processo não pode acessar o arquivo 'C:\Users\diego.moraes\Desktop\Eric.csv' porque ele está sendo usado por outro processo.
+22/03/2019 08:39:37;Erro ao obter ação do botão ou erro ao concluir processo.;O processo não pode acessar o arquivo 'C:\Users\diego.moraes\Desktop\Eric.csv' porque ele está sendo usado por outro processo.
+22/03/2019 08:39:58;Erro ao obter ação do botão ou erro ao concluir processo.;O processo não pode acessar o arquivo 'C:\Users\diego.moraes\Desktop\Eric.csv' porque ele está sendo usado por outro processo.

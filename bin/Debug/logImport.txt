@@ -1,0 +1,14 @@
+19/03/2019 08:42:26;Linha 2;Data inválida ou arquivo mal formatado;S�O PAULO;01/01/2016
+19/03/2019 08:43:14;Linha 2;Data inválida ou arquivo mal formatado;SUL SUDESTE;01/01/2016
+19/03/2019 08:44:05;Linha 2;Data inválida ou arquivo mal formatado;SUL SUDESTE;01/01/2016
+19/03/2019 08:45:54;Linha 2;Arquivo formatado incorretamente. Alguns valores inválidos na linha. Consultar log;RUSTON ALIMENTOS LTDA;0000.00.00;SUL SUDESTE;01/01/2016;;;C18I0001;C18I0002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Não é possível converter o objeto COM do tipo 'System.__ComObject' na interface tipo 'SAPbouiCOM.EditText'. Esta operação falhou porque a chamada de QueryInterface no componente COM para a interface com IID '{AE1C43FF-0F2B-4130-A0B7-40E38D5EC60E}' falhou devido ao seguinte erro: Não há suporte para esta interface (Exceção de HRESULT: 0x80004002 (E_NOINTERFACE)).
+19/03/2019 08:48:45;Linha 2;Arquivo formatado incorretamente. Alguns valores inválidos na linha. Consultar log;RUSTON ALIMENTOS LTDA;0000.00.00;SUL SUDESTE;01/01/2016;;;C18I0001;C18I0002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Argument is out of Range  [66000-91]
+19/03/2019 08:50:54;Linha 2;Arquivo formatado incorretamente. Alguns valores inválidos na linha. Consultar log;RUSTON ALIMENTOS LTDA;0000.00.00;OCRD_MW_GRUCLI_SUL_SUDESTE;01/01/2016;;;C18I0001;C18I0002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Argument is out of Range  [66000-91]
+19/03/2019 08:51:12;Linha 2;Arquivo formatado incorretamente. Alguns valores inválidos na linha. Consultar log;RUSTON ALIMENTOS LTDA;0000.00.00;OCRD_MW_GRUCLI_SUL_SUDESTE;01/01/2016;;;C18I0001;C18I0002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Argument is out of Range  [66000-91]
+19/03/2019 08:51:44;Linha 2;Arquivo formatado incorretamente. Alguns valores inválidos na linha. Consultar log;RUSTON ALIMENTOS LTDA;0000.00.00;OCRD_MW_GRUCLI_SUL_SUDESTE;01/01/2016;;;C18I0001;C18I0002;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Valid Value - Value does not Exist  [66000-62]
+19/03/2019 08:53:09;Linha 2;Importação concluída com sucesso
+19/03/2019 08:53:57;Linha 2;Importação concluída com sucesso
+22/03/2019 08:42:05;Linha 2;Importação concluída com sucesso
+22/03/2019 08:43:36;Linha 2;Data - Efetivo desde - não preenchida
+22/03/2019 08:43:44;Linha 2;Data - Efetivo desde - não preenchida
+22/03/2019 08:44:17;Linha 2;Importação concluída com sucesso

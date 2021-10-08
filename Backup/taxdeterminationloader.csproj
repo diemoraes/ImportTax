@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\diego.moraes\Desktop\TaxDeterminationLoader - 91.09.86.6\TaxDeterminationLoader - 91.09.86.6\TaxDeterminationLoader - 91.09.86.6\taxdeterminationloader.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{943CF57C-65B0-4B5E-8028-DDC86CB3B5A8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>TaxDeterminationLoader</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>91.9.86.6</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>TaxDeterminationLoader</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Interop.SAPbouiCOM">
+      <HintPath>lib\Interop.SAPbouiCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SAPbobsCOM">
+      <HintPath>lib\Interop.SAPbobsCOM.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GetSaveFileNameClass.cs" />
+    <Compile Include="frmOKSFTCD.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="WindowWrapper.cs" />
+    <Compile Include="frmOKSFTCD_Update.cs" />
+    <Compile Include="General.cs" />
+    <Compile Include="Support.cs" />
+    <Compile Include="EventHandler.cs" />
+    <Compile Include="GetFolderPathClass.cs" />
+    <Compile Include="GetFileNameClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Resources\Resources.cs" />
+    <Compile Include="Resources\ProjectMessages.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ProjectMessages.resx" />
+    <EmbeddedResource Include="Resources\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

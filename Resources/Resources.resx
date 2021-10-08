@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SelectVerifyKeyFields" xml:space="preserve">
+    <value>SELECT "KeyFld_1", "KeyFld_2", "KeyFld_3", "KeyFld_4", "KeyFld_5" FROM TCD1</value>
+  </data>
+  <data name="ComboBoxDataSourceName" xml:space="preserve">
+    <value>cbDataSource</value>
+  </data>
+  <data name="ErrorFoundWhileSavingXMLFile" xml:space="preserve">
+    <value>Houve um erro ao salvar um arquivo XML: </value>
+  </data>
+  <data name="QuerySboForThousandSeparator_FieldName" xml:space="preserve">
+    <value>ThousSep</value>
+  </data>
+  <data name="XMLExtension" xml:space="preserve">
+    <value>.xml</value>
+  </data>
+  <data name="BusinessOneNotFound" xml:space="preserve">
+    <value>Não foi encontrado um SAP Business One em execução!{0}{1}A mensagem retornada foi: {2}</value>
+  </data>
+  <data name="XMLFilesSubDir" xml:space="preserve">
+    <value>\XML\</value>
+  </data>
+  <data name="QuerySboForDecimalSeparator_FieldName" xml:space="preserve">
+    <value>DecSep</value>
+  </data>
+  <data name="SelectVerifDetType" xml:space="preserve">
+    <value>SELECT COUNT(1) FROM TCD1 JOIN OTCD ON TCD1."TcdId" = OTCD."AbsId" AND "TcdType" = 'MI'</value>
+  </data>
+  <data name="SelectVerifState" xml:space="preserve">
+    <value>SELECT COUNT(1) FROM OCST</value>
+  </data>
+  <data name="DetermCodImposto_formImport" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-16" ?&gt;&lt;Application&gt;&lt;forms&gt;&lt;action type="add"&gt;&lt;form appformnumber="-1" FormType="-1" type="4" BorderStyle="4" uid="OKSFTCD" title="Importação" visible="1" default_button="OKSFTCDBIM" pane="0" color="0" left="520" top="200" width="436" height="142" client_width="420" client_height="104" AutoManaged="0" SupportedModes="15" ObjectType=""&gt;&lt;datasources&gt;&lt;dbdatasources&gt;&lt;action type="add"/&gt;&lt;/dbdatasources&gt;&lt;userdatasources&gt;&lt;action type="add"/&gt;&lt;/userdatasources&gt;&lt;/datasources&gt;&lt;Menus/&gt;&lt;items&gt;&lt;action type="add"&gt;&lt;item uid="OKSFTCDBIM" type="4" left="5" tab_order="0" width="65" top="80" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Importar"/&gt;&lt;/item&gt;&lt;item uid="2" type="4" left="74" tab_order="0" width="65" top="80" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Cancelar"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDLCA" type="8" left="5" tab_order="0" width="105" top="20" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDECA" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Caminho do arquivo:"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDECA" type="16" left="141" tab_order="0" width="246" top="20" height="14" visible="1" enabled="0" from_pane="0" to_pane="0" disp_desc="0" right_just="1" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific TabOrder="0" IsPassword="0"&gt;&lt;databind databound="0" table="" alias=""/&gt;&lt;/specific&gt;&lt;/item&gt;&lt;item uid="OKSFTCDLCS" type="8" left="5" tab_order="0" width="110" top="5" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDECS" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Caracter Separador:"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDECS" type="16" left="141" tab_order="1" width="78" top="5" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDLCA" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific TabOrder="1" IsPassword="0"&gt;&lt;databind databound="0" table="" alias=""/&gt;&lt;/specific&gt;&lt;/item&gt;&lt;item uid="7" type="4" left="388" tab_order="0" width="22" top="18" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="..."/&gt;&lt;/item&gt;&lt;/action&gt;&lt;/items&gt;&lt;ChooseFromListCollection&gt;&lt;action type="add"&gt;&lt;ChooseFromList UniqueID="-1" ObjectType="-1" MultiSelection="0" IsSystem="1"/&gt;&lt;/action&gt;&lt;/ChooseFromListCollection&gt;&lt;DataBrowser/&gt;&lt;Settings Enabled="0"/&gt;&lt;/form&gt;&lt;/action&gt;&lt;/forms&gt;&lt;/Application&gt;</value>
+  </data>
+  <data name="DetermCodImposto_formImport_Update" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="UTF-16" ?&gt;&lt;Application&gt;&lt;forms&gt;&lt;action type="add"&gt;&lt;form appformnumber="-1" FormType="-1" type="4" BorderStyle="4" uid="OKSFTCD_Update" title="Atualização" visible="1" default_button="OKSFTCDBIM" pane="0" color="0" left="520" top="200" width="436" height="142" client_width="420" client_height="104" AutoManaged="0" SupportedModes="15" ObjectType=""&gt;&lt;datasources&gt;&lt;dbdatasources&gt;&lt;action type="add"/&gt;&lt;/dbdatasources&gt;&lt;userdatasources&gt;&lt;action type="add"/&gt;&lt;/userdatasources&gt;&lt;/datasources&gt;&lt;Menus/&gt;&lt;items&gt;&lt;action type="add"&gt;&lt;item uid="OKSFTCDBIM" type="4" left="5" tab_order="0" width="65" top="80" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Importar"/&gt;&lt;/item&gt;&lt;item uid="2" type="4" left="74" tab_order="0" width="65" top="80" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Cancelar"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDLCA" type="8" left="5" tab_order="0" width="105" top="20" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDECA" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Caminho do arquivo:"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDECA" type="16" left="141" tab_order="0" width="246" top="20" height="14" visible="1" enabled="0" from_pane="0" to_pane="0" disp_desc="0" right_just="1" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific TabOrder="0" IsPassword="0"&gt;&lt;databind databound="0" table="" alias=""/&gt;&lt;/specific&gt;&lt;/item&gt;&lt;item uid="OKSFTCDLCS" type="8" left="5" tab_order="0" width="110" top="5" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDECS" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="Caracter Separador:"/&gt;&lt;/item&gt;&lt;item uid="OKSFTCDECS" type="16" left="141" tab_order="1" width="78" top="5" height="14" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="OKSFTCDLCA" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific TabOrder="1" IsPassword="0"&gt;&lt;databind databound="0" table="" alias=""/&gt;&lt;/specific&gt;&lt;/item&gt;&lt;item uid="7" type="4" left="388" tab_order="0" width="22" top="18" height="19" visible="1" enabled="1" from_pane="0" to_pane="0" disp_desc="0" right_just="0" description="" linkto="" forecolor="-1" backcolor="-1" text_style="0" font_size="-1" supp_zeros="0" AffectsFormMode="1"&gt;&lt;AutoManagedAttribute/&gt;&lt;specific caption="..."/&gt;&lt;/item&gt;&lt;/action&gt;&lt;/items&gt;&lt;ChooseFromListCollection&gt;&lt;action type="add"&gt;&lt;ChooseFromList UniqueID="-1" ObjectType="-1" MultiSelection="0" IsSystem="1"/&gt;&lt;/action&gt;&lt;/ChooseFromListCollection&gt;&lt;DataBrowser/&gt;&lt;Settings Enabled="0"/&gt;&lt;/form&gt;&lt;/action&gt;&lt;/forms&gt;&lt;/Application&gt;</value>
+  </data>
+  <data name="QuerySboForDecimalAndThousandSeparator" xml:space="preserve">
+    <value>SELECT TOP 1 "DecSep", "ThousSep" FROM OADM</value>
+  </data>
+  <data name="SelectVerifyTaxCode" xml:space="preserve">
+    <value>SELECT COUNT(1) FROM OSTC</value>
+  </data>
+</root>
